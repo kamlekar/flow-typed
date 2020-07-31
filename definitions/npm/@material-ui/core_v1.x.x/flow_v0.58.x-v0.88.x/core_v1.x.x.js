@@ -1,3 +1,7 @@
+declare module "@material-ui/core/Accordion" {
+  declare module.exports: $Exports<"@material-ui/core/Accordion">;
+}
+
 declare module "@material-ui/core/AppBar/AppBar" {
   import type {ComponentType, Node} from "react";
 
